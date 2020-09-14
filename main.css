@@ -120,7 +120,6 @@ html {
   background-color: white;
   left: 0;
   top: 34px;
-  
 }
 
 #anchorContainer {
@@ -130,7 +129,6 @@ html {
 
 #firstAnchor {
   font-weight: 500;
-  
 }
 
 #dropC2 .boldAnchor {
@@ -141,7 +139,6 @@ html {
 
 #dropC2 a {
   padding-top: 13px;
-  
 }
 
 .anchorIcons {
@@ -183,7 +180,6 @@ html {
 
 #dropC3 a {
   padding-top: 13px;
-  
 }
 
 #dropC4 {
@@ -204,7 +200,6 @@ html {
 
 #dropC4 a {
   padding-top: 13px;
-  
 }
 
 #dropC5 {
@@ -225,7 +220,6 @@ html {
 
 #dropC5 a {
   padding-top: 13px;
-  
 }
 
 #dropC6 {
@@ -246,7 +240,6 @@ html {
 
 #dropC6 a {
   padding-top: 13px;
-  
 }
 
 #dropC7 {
@@ -267,7 +260,6 @@ html {
 
 #dropC7 a {
   padding-top: 13px;
-  
 }
 
 #dropC8 {
@@ -288,21 +280,19 @@ html {
 
 #dropC8 a {
   padding-top: 13px;
-  
 }
 
-#accessoriesShow:hover  #dropC2Hide {
+#accessoriesShow:hover #dropC2Hide {
   display: block;
 }
 
-
 #boldArrow {
-  left:185px;
+  left: 185px;
   top: 13px;
 }
 
 #boldArrow2 {
-  left:95px;
+  left: 95px;
   top: 13px;
 }
 
@@ -370,7 +360,7 @@ html {
   /* grid-template-rows: 20% 20% 20% 20% 20%; */
   grid-template-columns: repeat(5, 20%);
   justify-content: center;
-  margin: 0% 5%;
+  margin: 2% 5% 0%;
 }
 #items-container a {
   text-decoration: none;
@@ -445,7 +435,7 @@ div p {
 /* Everything past here styles the footer and it's children */
 /*  */
 #footer {
-  padding: 1% 0%;
+  padding: 2% 0% 0%;
 }
 .footer1 {
   font-family: sans-serif;
@@ -455,7 +445,7 @@ div p {
   align-items: center;
   background: #d0e2f2;
   height: 135px;
-  padding-top: 3%;
+  padding-top: 1%;
 }
 #email {
   font-size: 20px;
@@ -475,7 +465,7 @@ div p {
   word-spacing: 5px;
   letter-spacing: 1px;
   width: 40%;
-  height: 55px;
+  /* height: 55px; */
   padding: 0% 2%;
   background: #fff;
   display: flex;
@@ -531,15 +521,15 @@ button:hover {
 .footerCells > a {
   text-decoration: none;
 }
-/* a:link {
+.footerCells > a:link {
   color: #fff;
-} */
-/* a:hover {
+}
+.footerCells > a:hover {
   text-decoration: initial;
 }
-a:visited {
+.footerCells > a:visited {
   color: #fff;
-} */
+}
 #etsyApp {
   background: #283e5f;
   height: 35px;
@@ -548,10 +538,22 @@ a:visited {
   border-radius: 25px;
   margin: 15px 0 20px;
 }
-button > a {
+#etsyApp:focus {
+  outline: none;
+}
+#etsyApp > a {
   text-decoration: none;
 }
-.etsyIcon {
+#etsyApp > a:link {
+  color: #fff;
+}
+#etsyApp > a:hover {
+  text-decoration: initial;
+}
+#etsyApp > a:visited {
+  color: #fff;
+}
+i.etsyIcon {
   color: #283e5f;
   background: #fff;
   height: 20px;
@@ -567,7 +569,7 @@ button > a {
 #soMediaContainer > a {
   text-decoration: none;
 }
-.soMediaIcon {
+i.soMediaIcon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -577,6 +579,14 @@ button > a {
   border-radius: 25px;
   transition: background 0.2s linear;
   margin-right: 3px;
+  color: #fff;
+}
+.soMediaIcon > a:link {
+  color: #fff;
+}
+
+.soMediaIcon > a:visited {
+  color: #fff;
 }
 .soMediaIcon:hover {
   border-radius: 25px;
@@ -588,7 +598,7 @@ button > a {
   align-items: center;
   background: #20203d;
   color: #fff;
-  padding: 10px 25px;
+  padding: 0px 25px;
 }
 #regionFilter {
   background: none;
@@ -601,11 +611,26 @@ button > a {
   margin: 10px 0;
   color: #fff;
 }
+#regionFilter:focus {
+  outline: none;
+}
 .footerText {
   display: inline-flex;
   flex-flow: row nowrap;
   width: 40%;
   justify-content: space-around;
+}
+.footerText a {
+  text-decoration: none;
+}
+.footerText a:link {
+  color: #fff;
+}
+.footerText a:hover {
+  text-decoration: initial;
+}
+.footerText a:visited {
+  color: #fff;
 }
 a:hover {
   cursor: pointer;
