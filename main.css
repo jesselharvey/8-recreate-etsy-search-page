@@ -531,15 +531,15 @@ button:hover {
 .footerCells > a {
   text-decoration: none;
 }
-a:link {
+/* a:link {
   color: #fff;
-}
-a:hover {
+} */
+/* a:hover {
   text-decoration: initial;
 }
 a:visited {
   color: #fff;
-}
+} */
 #etsyApp {
   background: #283e5f;
   height: 35px;
